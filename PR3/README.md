@@ -14,11 +14,11 @@
   - 'controls': Adds play/pause/volume buttons.
 -->
 <p align="center">
-  <video src="assets/videos/hero-demo.mp4" width="100%" controls>
+  <video src="assets/videos/pr3.mp4" width="80%" controls>
     Your browser does not support the video tag.
   </video>
   <br>
-  <em>Figure 1: Demonstration of [Main Feature] in action.</em>
+  <em>Figure 1: Presentation of the telepresence platform Prometheus 3.0.</em>
 </p>
 
 ### 💡 The Problem & Solution
