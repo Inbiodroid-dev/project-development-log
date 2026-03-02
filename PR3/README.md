@@ -14,7 +14,7 @@
   - 'controls': Adds play/pause/volume buttons.
 -->
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/a3059b52-39cb-423c-a9ad-503aea494c89" width="80%" controls>
+  <video src="https://github.com/user-attachments/assets/a3059b52-39cb-423c-a9ad-503aea494c89" width="60%" controls>
     Your browser does not support the video tag.
   </video>
   <br>
