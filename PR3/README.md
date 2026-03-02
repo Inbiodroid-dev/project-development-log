@@ -13,13 +13,9 @@
   - 'width="100%"': Makes the video span the full width of the README.
   - 'controls': Adds play/pause/volume buttons.
 -->
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/a3059b52-39cb-423c-a9ad-503aea494c89" width="60%" controls>
-    Your browser does not support the video tag.
-  </video>
-  <br>
-  <em>Figure 1: Presentation of the telepresence platform Prometheus 3.0.</em>
-</p>
+https://github.com/user-attachments/assets/a3059b52-39cb-423c-a9ad-503aea494c89
+Figure 1: Presentation of the telepresence platform Prometheus 3.0.</em>
+
 
 ### 💡 The Problem & Solution
 Explain why this exists. "Current solutions for [Problem] are too heavy/expensive. Our project uses [Tech] to achieve [Benefit]."
