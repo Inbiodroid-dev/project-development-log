@@ -15,16 +15,18 @@
 -->
 https://github.com/user-attachments/assets/a3059b52-39cb-423c-a9ad-503aea494c89
 
-Figure 1: Presentation of the telepresence platform Prometheus 3.0.</em>
+Figure 1: Presentation of the telepresence platform Prometheus 1.0.</em>
 
 
-### 💡 The Problem & Solution
-Explain why this exists. "Current solutions for [Problem] are too heavy/expensive. Our project uses [Tech] to achieve [Benefit]."
+### 💡 General Overview
+The system enables real-time teleoperation of a humanoid robot using Vive trackers to capture the operator’s motion. Pose data is transmitted via UDP to a single-board computer (SBC), where it is processed and converted into joint commands.
+
+The SBC distributes these commands to multiple MCUs through serial communication, and each MCU controls the actuators via the CAN bus.
 
 ### 🛠️ Core Technology
-*   **Mechanical:** [e.g., Carbon fiber frame, 3D printed joints]
-*   **Electronics:** [e.g., ESP32-based distributed control]
-*   **Software:** [e.g., Real-time kinematics in C++]
+*   **Mechanical:** Modular humanoid structure built with nylon and aluminum components, combining lightweight design with structural rigidity and durability.
+*   **Electronics:** Distributed control architecture with a single-board computer (SBC) and multiple MCUs connected via serial communication and CAN bus.
+*   **Software:** Real-time pose processing and motion mapping, UDP-based communication, and low-level actuator control over CAN.
 
 ---
 [View Detailed Demos →](./demo)

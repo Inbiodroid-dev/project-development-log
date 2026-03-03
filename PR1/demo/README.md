@@ -7,7 +7,7 @@
 ## 🧪 Testing & Validation
 We showcase the evolution of the project through these key milestones.
 
-### 1. Stability and Locomotion (Autoplay Loop)
+### 1. Humanoid Robot – Pre-Programmed Motion Execution
 <!-- 
   GIF-STYLE VIDEO INSTRUCTIONS:
   - 'autoplay loop muted playsinline': Makes the video act like a high-quality GIF.
@@ -20,7 +20,7 @@ We showcase the evolution of the project through these key milestones.
   <strong>Testing the PID loop for balance control.</strong>
 </p>
 
-### 2. Subsystem Operation
+### 2. Humanoid Robot – Real-Time Teleoperation
 Briefly describe what this video shows (e.g., Gripper precision, Sensor data visualization).
 
 <p align="center">

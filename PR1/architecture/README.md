@@ -5,44 +5,49 @@
 ---
 
 ## 🗺️ System Overview
-![High Level Diagram](../assets/diagrams/system-overview.png)
-*
-Figure 2: Interaction between Hardware, Firmware, and Cloud layers.*
+
+<div style="display: flex; justify-content: center; gap: 40px; align-items: flex-end;">
+
+  <div style="width: 50%; text-align: center;">
+    <img src="../assets/diagrams/PI_SPLY.png" width="100%">
+    <p><em>Figure 1: Interaction between Hardware, Firmware, and Cloud layers.</em></p>
+  </div>
+
+  <div style="width: 50%; text-align: center;">
+    <img src="../assets/diagrams/PI_COMM.png" width="100%">
+    <p><em>Figure 2: Interaction between Hardware, Firmware, and Cloud layers.</em></p>
+  </div>
+
+</div>
 
 ## 🔌 Hardware Subsystems
-*   **Main Controller:** [e.g., Jetson Nano for Image Processing]
-*   **Actuation:** [e.g., 6x High-torque Brushless Motors via CAN Bus]
-*   **Power:** [e.g., 6S LiPo with custom BMS]
+*   **Main Controller(Avatar):**
+    - Single Board Computer
+    - Stereo Camera
+    - Tablet
+    - MCU 32 bits ARM Cortex M4
+*   **Main Controller(Operator):** 
+    - Computer(Laptop)
+    - Head Mounted Goggles
+    - VR Controllers
+    - Control and Feedback Gloves
+    - Wireless Trackers
+    - Pedal Board 
+*   **Actuation:**
+    - Brushless CAN Motors
+    - Linear Servo Motors
+*   **Power:**
+    - LiPo Batteries
 
 ## 🧠 Software Logic
-<!-- 
-  You can also use small GIFs for software flows or UI logic 
--->
 
-<!-- IMAGE EMBED TEMPLATE -->
-<p align="center"> <!-- OPTIONS: left, center, right -->
-  <img 
-    src="../assets/images/software-flow.png" 
-    alt="Descriptive text for screen readers" 
-    title="Tooltip text when hovering"
-    width="300" 
-    height="auto"
-    border="0"
-    loading="lazy"
-  >
-  <br>
-  <em>Optional: Add a caption here in italics</em>
-</p>
+The software stack is built on:
+- **C++ (Arduino IDE)** for MCU programming.
+- **C# (Unity)** for vision and VR systems.
 
-The software stack is built on [ROS2/Arduino/etc]. 
-
-<p align="right">
-  <img src="../assets/images/software-flow.png" width="300" align="right" />
-</p>
-
-1. **Perception Layer:** Processes IMU and Vision data.
-2. **Decision Layer:** Calculates Inverse Kinematics.
-3. **Execution Layer:** Sends PWM signals to motor drivers.
+1. **Perception Layer:** Trackers are used to estimate the operator’s pose through Light tracking. Vision data is streamed to provide real-time visual feedback.
+2. **Decision Layer:** Inverse Kinematics calculations transform Cartesian poses into joint-space targets. A Finite Stete Machine handles transition between states like Calibrated, GoToHome, and Engaged.
+3. **Execution Layer:** Operator pose data is transmitted over UDP to the single-board computer (SBC), where it is processed and routed to multiple microcontroller units (MCUs) via serial communication. Each MCU then forwards the control signals to the actuators using the CAN bus protocol.
 
 <br clear="right"/>
 

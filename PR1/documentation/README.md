@@ -8,7 +8,7 @@ The following documents provide deep technical insights into the engineering pro
 
 | Document Title | Contents | Link |
 | :--- | :--- | :--- |
-| **UM (User Manual)** | Clear explanation of how to use the system. | [📥 Download PDF](../assets/docs/MUPrometheus_v1_3.pdf) |
+| **Prometheus 1.0 User Manual** | Clear explanation of how to use the system. | [📥 Download PDF](../assets/docs/MUPrometheus_v1_3.pdf) |
 
 ---
 ### 🛡️ Proprietary Information
