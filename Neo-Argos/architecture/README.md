@@ -5,7 +5,10 @@
 ---
 
 ## 🗺️ System Connections
-![Neo-Argos Connection Diagram](../assets/diagrams/Power-Distribution-Unit.png)
+<p align="center">
+  <img src="../assets/diagrams/Power-Distribution-Unit.png" width="500" align="right" />
+</p>
+
 *Figure 1: High-level overview of Interfaces and Power Distribution (CAN, UART, Power Unit).*
 
 ## 🔌 Hardware Subsystems
