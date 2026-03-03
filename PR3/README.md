@@ -21,11 +21,10 @@
   - 'width="100%"': Makes the video span the full width of the README.
   - 'controls': Adds play/pause/volume buttons.
 -->
+
 https://github.com/user-attachments/assets/a3059b52-39cb-423c-a9ad-503aea494c89
 
 Figure 1: Presentation of the telepresence platform Prometheus 3.0.</em>
-
->>>>>>> da6ad9fd92e900739c752d0209b6eab0aa1f1628
 
 ### 💡 General Overview
 Prometheus 3.0 is a humanoid robot designed for real-time teleoperation. Using the **Hermes-Avatar** architecture, the system translates a human operator's movements into precise robot actions over a UDP network, allowing for immersive remote interaction and task execution.
