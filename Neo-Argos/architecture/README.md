@@ -6,10 +6,12 @@
 
 ## 🗺️ System Connections
 <p align="center">
-  <img src="../assets/diagrams/Power-Distribution-Unit.png" width="800" align="center" />
+  <img src="../assets/diagrams/Power-Distribution-Unit.png" width="800" />
 </p>
 
-*Figure 1: High-level overview of Interfaces and Power Distribution (CAN, UART, Power Unit).*
+<p align="center">
+  <em>Figure 1: High-level overview of Interfaces and Power Distribution (CAN, UART, Power Unit).</em>
+</p>
 
 ## 🔌 Hardware Subsystems
 ### 💻 Main Controller (The Brain)
