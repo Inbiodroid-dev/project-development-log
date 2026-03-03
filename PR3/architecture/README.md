@@ -20,7 +20,7 @@ The Prometheus 3.0 system is divided into two primary environments: the **Operat
 <table>
   <tr>
     <td align="center">
-      <img src="../assets/diagrams/Power-Distribution-Unit.png" width="400"><br>
+      <img src="../assets/diagrams/Power-PR3.png" width="400"><br>
       <em>Figure 1: Power Distribution Overview</em>
     </td>
     <td align="center">
