@@ -1,5 +1,5 @@
 # [Prometheus 1.0]
-> **One-line description of the mechatronic system (e.g., "A modular humanoid platform for remote telepresence").**
+> **A high-performance humanoid telepresence platform for intuitive remote operation.**
 
 <!-- Navigation Bar (Markdown) -->
 ### [🏠 Home](./) | [📺 Demo](./demo) | [🏗️ Architecture](./architecture) | [📄 Documentation](./documentation)
