@@ -7,6 +7,8 @@
 
 ## 🚀 Project Highlight
 
+https://github.com/user-attachments/assets/44ac5a3f-6cdc-409b-b6c2-094af1129471
+
 Figure 1: Neo-Argos during a Navigation Test.</em>
 
 ### 💡 The R&D Mission
