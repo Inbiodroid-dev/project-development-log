@@ -6,21 +6,6 @@
 ---
 
 ## 🚀 Project Highlight
-<<<<<<< HEAD
-<p align="center">
-  <video src="assets/videos/pr3.mp4" width="80%" controls>
-    Your browser does not support the video tag.
-  </video>
-  <br>
-  <em>Figure 1: Presentation of the telepresence platform Prometheus 3.0.</em>
-</p>
-=======
-<!-- 
-  VIDEO EMBED INSTRUCTIONS:
-  - 'src': Use 'assets/videos/filename.mp4' (no ../ needed here).
-  - 'width="100%"': Makes the video span the full width of the README.
-  - 'controls': Adds play/pause/volume buttons.
--->
 
 https://github.com/user-attachments/assets/a3059b52-39cb-423c-a9ad-503aea494c89
 
