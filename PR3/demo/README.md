@@ -5,28 +5,23 @@
 ---
 
 ## 🧪 Testing & Validation
-We showcase the evolution of the project through these key milestones.
+We showcase the evolution of Prometheus 3.0 through several key development milestones.
 
-### 1. Stability and Locomotion (Autoplay Loop)
-<!-- 
-  GIF-STYLE VIDEO INSTRUCTIONS:
-  - 'autoplay loop muted playsinline': Makes the video act like a high-quality GIF.
-  - Path: Use '../assets/videos/' because we are inside a subdirectory.
--->
+### 1. Stability and Balance
 <p align="center">
   <video src="../assets/videos/stability-test.mp4" width="600" autoplay loop muted playsinline>
   </video>
   <br>
-  <strong>Testing the PID loop for balance control.</strong>
+  <strong>Real-time stability testing.</strong>
 </p>
 
 ### 2. Subsystem Operation
-Briefly describe what this video shows (e.g., Gripper precision, Sensor data visualization).
+This demonstration shows the integration of the **Hermes modules** for teleoperating the **eRob-based arms** and **RMD-based grippers**. 
 
-<p align="center">
-  <video src="../assets/videos/subsystem-demo.mp4" width="600" controls>
-  </video>
-</p>
+The system enables precise mapping of human movements, including:
+- **Joint-space PD+ control** for smooth arm trajectories.
+- **Gripper haptic calibration** for precise hand motion replication.
+- **Torso and Neck smoothing** for stable visual feedback and pose adjustment.
 
 ---
 [View Technical Architecture →](../architecture)

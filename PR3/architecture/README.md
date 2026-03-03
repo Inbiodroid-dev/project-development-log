@@ -5,46 +5,23 @@
 ---
 
 ## 🗺️ System Overview
-![High Level Diagram](../assets/diagrams/system-overview.png)
-*
-Figure 2: Interaction between Hardware, Firmware, and Cloud layers.*
+The Prometheus 3.0 system is divided into two primary environments: the **Operator side (Hermes)** and the **Robot side (Avatar)**.
 
 ## 🔌 Hardware Subsystems
-*   **Main Controller:** [e.g., Jetson Nano for Image Processing]
-*   **Actuation:** [e.g., 6x High-torque Brushless Motors via CAN Bus]
-*   **Power:** [e.g., 6S LiPo with custom BMS]
+*   **Robot Controllers (Avatar):** Multiple **Teensy 4.1** microcontrollers, each managing a specific subsystem (Arms, Torso/Neck, Platform).
+*   **Operator Modules (Hermes):** **ESP32 (DFRobot Beetle C3)** modules worn by the operator to capture 3D orientation (Stella and Satelle units).
+*   **Actuation Stack:** 
+    *   **Arms:** **eRob (ZeroErr)** high-performance actuators.
+    *   **Torso:** **AK10-9 (CubeMars)** high-torque motors.
+    *   **Neck & Gripper:** **RMD (MyActuator)** series motors.
+*   **Vision:** **ZED2 Stereo Camera** for real-time visual feedback.
 
 ## 🧠 Software Logic
-<!-- 
-  You can also use small GIFs for software flows or UI logic 
--->
+The software stack is built using **C++ (PlatformIO/Arduino)** with a focus on real-time execution and state management.
 
-<!-- IMAGE EMBED TEMPLATE -->
-<p align="center"> <!-- OPTIONS: left, center, right -->
-  <img 
-    src="../assets/images/software-flow.png" 
-    alt="Descriptive text for screen readers" 
-    title="Tooltip text when hovering"
-    width="300" 
-    height="auto"
-    border="0"
-    loading="lazy"
-  >
-  <br>
-  <em>Optional: Add a caption here in italics</em>
-</p>
-
-The software stack is built on [ROS2/Arduino/etc]. 
-
-<p align="right">
-  <img src="../assets/images/software-flow.png" width="300" align="right" />
-</p>
-
-1. **Perception Layer:** Processes IMU and Vision data.
-2. **Decision Layer:** Calculates Inverse Kinematics.
-3. **Execution Layer:** Sends PWM signals to motor drivers.
-
-<br clear="right"/>
+1. **Perception Layer:** IMU data from the Hermes modules is captured and processed to determine operator pose. Vision is streamed for visual feedback.
+2. **Decision Layer:** Inverse Kinematics calculations transform Cartesian poses into joint-space targets. A **SimpleFSM** handles transition between states like `Calibrated`, `GoToHome`, and `Engaged`.
+3. **Execution Layer:** Commands are sent via **CANopen** and custom UDP packets (**PrometheusSocketBuffers**) to the actuator controllers.
 
 ---
 [Review Technical Documents →](../documentation)
