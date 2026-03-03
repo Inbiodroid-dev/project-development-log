@@ -16,6 +16,19 @@ The Prometheus 3.0 system is divided into two primary environments: the **Operat
     *   **Neck & Gripper:** **RMD (MyActuator)** series motors.
 *   **Vision:** **ZED2 Stereo Camera** for real-time visual feedback.
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="../assets/diagrams/Power-PR3.png" width="400"><br>
+      <em>Figure 1: Power Distribution Overview</em>
+    </td>
+    <td align="center">
+      <img src="../assets/diagrams/Interfaces-PR3.png" width="400"><br>
+      <em>Figure 2: Interface Topology</em>
+    </td>
+  </tr>
+</table>
+
 ## 🧠 Software Logic
 The software stack is built using **C++ (PlatformIO/Arduino)** with a focus on real-time execution and state management.
 
