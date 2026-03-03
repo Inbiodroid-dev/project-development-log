@@ -1,7 +1,7 @@
 # Neo-Argos
 > **A high-performance R&D differential drive platform for mastering ROS 2, autonomous navigation, and mobile robotics.**
 
-### [🏠 Home](./) | [📺 Demo](./demo) | [🏗️ Architecture](./architecture)
+### [🏠 Home](./) | [📺 Demo](./demo) | [🏗️ Architecture](./architecture) | [📄 Documentation](./documentation)
 
 ---
 

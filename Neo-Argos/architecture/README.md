@@ -1,6 +1,6 @@
 # 🏗️ System Architecture
 
-### [🏠 Home](../) | [📺 Demo](../demo) | [🏗️ Architecture](./)
+### [🏠 Home](./) | [📺 Demo](./demo) | [🏗️ Architecture](./architecture) | [📄 Documentation](./documentation)
 
 ---
 
