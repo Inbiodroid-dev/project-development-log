@@ -6,7 +6,7 @@
 
 ## 🗺️ System Connections
 <p align="center">
-  <img src="../assets/diagrams/Power-Distribution-Unit.png" width="500" align="center" />
+  <img src="../assets/diagrams/Power-Distribution-Unit.png" width="800" align="center" />
 </p>
 
 *Figure 1: High-level overview of Interfaces and Power Distribution (CAN, UART, Power Unit).*
