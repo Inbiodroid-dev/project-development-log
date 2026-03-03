@@ -4,15 +4,13 @@
 
 ---
 
-The following documents provide deep technical insights into the engineering process.
+The following documents provide deep technical insights into the Prometheus 3.0 platform.
 
 | Document Title | Contents | Link |
 | :--- | :--- | :--- |
-| **BOM (Bill of Materials)** | Full list of mechanical and electronic parts. | [📥 Download PDF](../assets/docs/bom.pdf) |
-| **Wiring Schematics** | Pinout diagrams and power distribution maps. | [📥 Download PDF](../assets/docs/schematics.pdf) |
-| **Safety Analysis** | Structural stress tests and electrical fail-safes. | [📥 Download PDF](../assets/docs/safety-report.pdf) |
-| **API Reference** | Communication protocol for external control. | [📥 Download PDF](../assets/docs/api-docs.pdf) |
+| **Prometheus 3.0 User Manual** | Full initialization and operation guide for the platform. | [📄 View PDF](./MUPrometheus_v3_1.pdf) |
+| **Datasheet & Safety Sheet** | Technical specifications and operational safety guidelines. | [📄 View PDF](./PR3_Datasheet.pdf) |
 
 ---
 ### 🛡️ Proprietary Information
-*Note: High-resolution CAD files and PCB gerber files are available upon request for the evaluation committee to maintain IP security.*
+*Note: Advanced CAD models and internal firmware source code are available upon request for detailed technical evaluation.*
