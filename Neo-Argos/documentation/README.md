@@ -1,6 +1,6 @@
 # 📄 Documentation
 
-### [🏠 Home](../) | [📺 Demo](../demo) | [🏗️ Architecture](../architecture) | [📄 Documentation](./)
+### [🏠 Home](../) | [📺 Demo](../demo) | [🏗️ Architecture](../architecture) | [📄 Documentation](./documentation)
 
 ---
 

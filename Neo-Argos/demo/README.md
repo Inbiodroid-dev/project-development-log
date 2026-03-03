@@ -1,6 +1,6 @@
 # 📺 Project Demos
 
-### [🏠 Home](./) | [📺 Demo](./demo) | [🏗️ Architecture](./architecture) | [📄 Documentation](./documentation)
+### [🏠 Home](../) | [📺 Demo](./) | [🏗️ Architecture](../architecture) | [📄 Documentation](../documentation)
 
 ---
 
