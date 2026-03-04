@@ -1,4 +1,4 @@
-# [Prometheus 1.0]
+# [Prometheus 2.0]
 > **A high-performance humanoid telepresence platform for intuitive remote operation.**
 
 <!-- Navigation Bar (Markdown) -->
