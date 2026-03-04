@@ -13,7 +13,8 @@
   - 'width="100%"': Makes the video span the full width of the README.
   - 'controls': Adds play/pause/volume buttons.
 -->
-https://github.com/user-attachments/assets/a3059b52-39cb-423c-a9ad-503aea494c89
+
+https://github.com/user-attachments/assets/8f866c88-ca14-45ef-984d-4586b2ca5198
 
 Figure 1: Presentation of the telepresence platform Prometheus 1.0.</em>
 
