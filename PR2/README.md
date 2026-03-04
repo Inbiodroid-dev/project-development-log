@@ -14,6 +14,8 @@
   - 'controls': Adds play/pause/volume buttons.
 -->
 
+https://github.com/user-attachments/assets/f4aabdfc-4af6-4b3b-85cd-1908c0cc47f0
+
 Figure 1: Presentation of the telepresence platform Prometheus 3.0.</em>
 
 
