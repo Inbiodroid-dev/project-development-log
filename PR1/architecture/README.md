@@ -10,12 +10,12 @@
 
   <div style="width: 50%; text-align: center;">
     <img src="../assets/diagrams/PI_SPLY.png" width="100%">
-    <p><em>Figure 1: Interaction between Hardware, Firmware, and Cloud layers.</em></p>
+    <p><em>Figure 1: System Power Distribution Diagram.</em></p>
   </div>
 
   <div style="width: 50%; text-align: center;">
     <img src="../assets/diagrams/PI_COMM.png" width="100%">
-    <p><em>Figure 2: Interaction between Hardware, Firmware, and Cloud layers.</em></p>
+    <p><em>Figure 2: System Communication Diagram.</em></p>
   </div>
 
 </div>
